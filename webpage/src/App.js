@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Greeter from './components/Greeter'
 import Item1 from './components/Item1';
 import Item2 from './components/Item2';
+import Item3 from './components/Item3';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -14,9 +15,8 @@ function App() {
     <div className="App">
       <Header/>
       <Greeter/>
-      <Container>
+      <Container fluid='lg'>
         <Row>
-
           <Col>
             <Item1/>
           </Col>
@@ -26,9 +26,8 @@ function App() {
           </Col>
 
           <Col>
-            <Item1/>
+            <Item3/>
           </Col>
-
         </Row>
       </Container>
     </div>

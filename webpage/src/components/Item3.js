@@ -12,13 +12,18 @@ const Item3 = () => {
         <Card>
         <Card.Img variant="top" src={snippetImage} alt="Snippet" />
             <Card.Body>
-                <Card.Title></Card.Title>
+                <Card.Title>Moviesseur</Card.Title>
                 <Card.Text>
-                  This is a snippet of the code behind this website.
-                  Click the button below to view the repository.
+                  Fullstack application that taught me about implementing APIs and how to connect and
+                  troubleshoot between the backend and frontend.
                 </Card.Text>
-                <Button variant="secondary">
-                  <FontAwesomeIcon icon={faCode} /></Button>
+                <Button variant="secondary" href="https://github.com/joselclee/Moviesseur">
+                  <FontAwesomeIcon icon={faCode} /> Backend
+                  </Button>
+                  {' '}
+                  <Button variant="secondary" href="https://github.com/joselclee/Moviesseur-Front-End">
+                  <FontAwesomeIcon icon={faCode} /> Frontend
+                  </Button>
             </Card.Body>
         </Card>
     </div>
