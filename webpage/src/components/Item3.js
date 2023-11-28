@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import snippetImage from './assets/snippet1.jpg';
+import snippetImage from './assets/moviepic.jpg';
 
 const Item3 = () => {
   return (
