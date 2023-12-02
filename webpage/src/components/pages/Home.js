@@ -1,5 +1,6 @@
 import '../Header.css'
-import Header from '../Header'
+import Header from '../Header';
+import Giffy from '../Giffy';
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
         <br/>
         <div className="custom">Hi I'm Andre. </div>
         <div>
-            <img src="./components/assets/andre.gif"></img>
+            <Giffy/>
         </div>
     </div>
   )
