@@ -1,16 +1,17 @@
 import '../Header.css'
 import Header from '../Header';
 import Giffy from '../Giffy';
+import Container from 'react-bootstrap/Container';
 
 const Home = () => {
   return (
     <div className="Home">
+      <Container>
         <Header/>
-        <br/>
-        <div className="custom">Hi I'm Andre. </div>
         <div>
             <Giffy/>
         </div>
+      </Container>
     </div>
   )
 }

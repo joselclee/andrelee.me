@@ -24,6 +24,9 @@ const Header = () => {
             <Nav.Link as={Link} to="/Projects">
               Projects
             </Nav.Link>
+            <Nav.Link as={Link} to="/Games">
+              Games
+            </Nav.Link>
             </Nav>
         </Navbar.Collapse>
       </Container>
