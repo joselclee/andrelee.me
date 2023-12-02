@@ -1,41 +1,32 @@
 import './App.css';
 
 import Header from './components/Header';
-import Greeter from './components/Greeter'
-import Item1 from './components/Item1';
-import Item2 from './components/Item2';
-import Item3 from './components/Item3';
+import Layout from './components/Layout';
+import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <div className="Home">
+      {/* <div className="Home">
         <Header/>
-        <Greeter/>
-        <Container fluid='lg'>
-          <Row>
-            <Col>
-              <Item1/>
-            </Col>
+        <Projects/>
+      </div> */}
 
-            <Col>
-              <Item2/>
-            </Col>
+      {/*Testing*/}
 
-            <Col>
-              <Item3/>
-            </Col>
-          </Row>
-        </Container>
-        </div>
-      <div className="projects">
-      <Projects/>
-    </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/Projects" element={<Projects/>}/>
+        </Routes>
+      </Router>
+
     </div>
 
   );
