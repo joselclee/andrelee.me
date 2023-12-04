@@ -11,6 +11,9 @@ const Home = () => {
         <div>
             <Giffy/>
         </div>
+        <div className="chatbot">
+          chatbot should be here
+        </div>
       </Container>
     </div>
   )
