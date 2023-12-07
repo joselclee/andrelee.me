@@ -9,7 +9,7 @@ import snippetImage from './assets/numbers.png';
 const Item2 = () => {
   return (
     <div>
-        <Card>
+        <Card >
         <Card.Img variant="top" src={snippetImage} alt="Snippet" />
             <Card.Body>
                 <Card.Title>Digit Classifier Model</Card.Title>

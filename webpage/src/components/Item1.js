@@ -1,4 +1,4 @@
-import React from 'react'
+import './Item.css'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
