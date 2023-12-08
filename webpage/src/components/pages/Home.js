@@ -22,7 +22,7 @@ const Home = () => {
           <Featured/>
         </div>
       </Container>
-      <br/>
+      <br/><br/>
       <Footer/>
       </div>
 
