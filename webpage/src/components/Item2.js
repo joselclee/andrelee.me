@@ -14,7 +14,7 @@ const Item2 = () => {
             <Card.Body>
                 <Card.Title>Digit Classifier Model</Card.Title>
                 <Card.Text>
-                  This marks my first step into machine learning! For this mdoel, I provided 18 self-drawn 
+                  This marks my first step into machine learning! For this model, I provided 18 self-drawn 
                   images with the current real-world accuracy of the model at 50%.
                 </Card.Text>
                 <Button variant="secondary" href="https://github.com/joselclee/Handwritten-Number-Identifier">

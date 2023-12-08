@@ -1,4 +1,4 @@
-"homepage": "http://joselclee.github.io/andrelee.dev",
+"homepage"; "http://joselclee.github.io/andrelee.dev";
 import './App.css';
 
 import Home from './components/pages/Home';
