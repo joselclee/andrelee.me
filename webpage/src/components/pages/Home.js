@@ -7,7 +7,7 @@ import Featured from '../Featured';
 const Home = () => {
   return (
     <div className="Home">
-      <Container>
+      <Container fluid>
         <Header/>
         <div>
             <Giffy/>
@@ -15,9 +15,9 @@ const Home = () => {
         <div>
             <Featured/>
         </div>
-        <div className="chatbot">
+        {/* <div className="chatbot">
           chatbot should be here
-        </div>
+        </div> */}
       </Container>
     </div>
   )

@@ -1,41 +1,31 @@
-import { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import Bg from './assets/bg.jpg';
+import './Item.css'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-function Featured() {
-  const [index, setIndex] = useState(0);
+import snippetImage from './assets/openai-logo.jpg';
 
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
-
+const Featured = () => {
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img src={Bg} text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={Bg} text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={Bg} text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  );
+    <div>
+        <Card>
+        <Card.Img variant="top" src={snippetImage} alt="Snippet" />
+            <Card.Body>
+                <Card.Title>Customized Large Language Model</Card.Title>
+                <Card.Text>
+                  text text text text text text text text text text text text text text text
+                  text text text text text text text text text text text text text text text
+                  text text text text text text text text text text text text text text text
+                  text text text text text text text text text text text text text text text
+                </Card.Text>
+                <Button variant="secondary" href="https://github.com/joselclee/andrelee.dev">
+                  <FontAwesomeIcon icon={faCode} />
+                  </Button>
+            </Card.Body>
+        </Card>
+    </div>
+  )
 }
 
-export default Featured;
+export default Featured
