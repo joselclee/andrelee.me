@@ -1,5 +1,7 @@
-.med-size {
-    align-self: center;
-    width: 65%;
-    height: 60%;
-  }
+/* For featured item on home */
+
+.med-size { 
+  align-self: center;
+  width: 65%;
+  height: 70%;
+}

@@ -3,7 +3,7 @@ import './Header.css';
 const Footer = () => {
   return (
     <div className="footer-text">
-        designed by andre lee. 2023.
+        designed by andre lee
     </div>
   )
 }

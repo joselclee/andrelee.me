@@ -4,21 +4,21 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import snippetImage from './assets/snippet1.jpg';
+import snippetImage from './assets/csun.jpg';
 
-const Item1 = () => {
+const Item5 = () => {
   return (
     <div>
-        <Card className="normalize">
+        <Card>
         <Card.Img variant="top" src={snippetImage} alt="Snippet" />
             <Card.Body>
-                <Card.Title>Source code</Card.Title>
+                <Card.Title>Matamunch</Card.Title>
                 <Card.Text>
-                  This is a snippet of the code behind this website.
-                  Click the button below to view the repository.
+                  Food searching program that can search for food using
+                  prices, calories, location, and name.
                 </Card.Text>
-                <Button variant="secondary" href="https://github.com/joselclee/andrelee.dev">
-                  <FontAwesomeIcon icon={faCode} />
+                <Button variant="secondary" href="https://github.com/joselclee/COMP-282-Matamunch">
+                  <FontAwesomeIcon icon={faCode} /> JavaScript
                   </Button>
             </Card.Body>
         </Card>
@@ -26,4 +26,4 @@ const Item1 = () => {
   )
 }
 
-export default Item1
+export default Item5

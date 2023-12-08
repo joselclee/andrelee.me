@@ -12,13 +12,13 @@ const Featured = () => {
       <Card>
         <Card.Img variant="top" src={snippetImage} alt="Snippet"/>
           <Card.Body>
-            <Card.Title>Customized Large Language Model</Card.Title>
+            <Card.Title>billiam fakespeare </Card.Title>
             <Card.Text>
-              A large language model that can generate text based on most 
-              nutritional facts available on the internet. Finetuning
-              dataset includes over x million parameters.
+              Natural language processing model that is trained on 40,000 lines of Shakespearean text to generate 
+              hilarious responses to user input. The model uses TF-IDF to vectorize the input and then uses cosine similarity
+              to generate the response.
             </Card.Text>
-            <Button variant="secondary" href="https://github.com/joselclee/andrelee.dev">
+            <Button variant="secondary" href="https://github.com/joselclee/chatbot">
               <FontAwesomeIcon icon={faCode}/> Python Code
             </Button>
           </Card.Body>

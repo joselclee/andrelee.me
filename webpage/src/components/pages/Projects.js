@@ -1,7 +1,10 @@
 import Header from '../Header';
+import Footer from '../Footer';
 import Item1 from '../Item1';
 import Item2 from '../Item2';
 import Item3 from '../Item3';
+import Item4 from '../Item4';
+import Item5 from '../Item5';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -25,7 +28,22 @@ const Projects = () => {
             <Item3/>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <Item4/>
+          </Col>
+            
+          <Col>
+            <Item5/>
+          </Col>
+
+          <Col>
+          </Col>
+
+        </Row>
       </Container>
+      <br/>
+      <Footer/>
     </div>
   )
 }

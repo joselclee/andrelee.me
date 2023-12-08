@@ -20,7 +20,7 @@ const Item3 = () => {
                 <Button variant="secondary" href="https://github.com/joselclee/Moviesseur">
                   <FontAwesomeIcon icon={faCode} /> Backend
                   </Button>
-                  {' '}
+                  <br/><br/>
                   <Button variant="secondary" href="https://github.com/joselclee/Moviesseur-Front-End">
                   <FontAwesomeIcon icon={faCode} /> Frontend
                   </Button>
