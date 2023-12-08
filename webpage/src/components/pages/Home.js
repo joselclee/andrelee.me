@@ -1,7 +1,8 @@
 import '../Header.css'
 import Header from '../Header';
+import Footer from '../Footer';
 import Giffy from '../Giffy';
-import Container from 'react-bootstrap/Container';
+import { Container } from 'react-bootstrap';
 import Featured from '../Featured';
 
 const Home = () => {
@@ -11,15 +12,19 @@ const Home = () => {
         <Header/>
         <div>
             <Giffy/>
+            <br/><br/>
         </div>
-        <div>
-            <Featured/>
+        <div className="home-container">
+          <div className="med-text">
+            favorite project!
+            <br/>
+          </div>
+          <Featured/>
         </div>
-        {/* <div className="chatbot">
-          chatbot should be here
-        </div> */}
       </Container>
-    </div>
+      <Footer/>
+      </div>
+
   )
 }
 

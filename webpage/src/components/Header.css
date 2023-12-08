@@ -5,8 +5,19 @@
     background-color: white;
     text-align: center;
 }
+.med-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding: 4px;
+    background-color: rgba(245, 222, 179, 0.73);
+    border-radius: 20px;
+}
 
-.smtext {
+.sm-text {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: large;
     font-weight: bold;
@@ -15,6 +26,14 @@
     text-align: center;
 }
 
+.footer-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: black;
+    background-color: white;
+    text-align: right;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -44,5 +63,13 @@ html {
     border-image: linear-gradient(to right, transparent, white); /* Use a gradient for the fading border */
     border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
     transition: border-image 0.5s ease; /* Add a transition for a smooth effect */
+  }
+
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children along the cross-axis (horizontally) */
+    height: 100vh; /* Set the height to 100% of the viewport */
   }
   

@@ -1,3 +1,5 @@
-.card-container {
-    height: 600px;
-}
+.med-size {
+    align-self: center;
+    width: 65%;
+    height: 60%;
+  }
