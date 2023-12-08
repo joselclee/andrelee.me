@@ -22,6 +22,7 @@ const Home = () => {
           <Featured/>
         </div>
       </Container>
+      <br/>
       <Footer/>
       </div>
 

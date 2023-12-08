@@ -10,6 +10,7 @@ const Resume = () => {
             <iframe src={pdfLink}
             title="Resume" alt="resume" width="100%" height="1000px"/>
           </Container>
+          <br/>
           <Footer/>       
     </div>
   );
