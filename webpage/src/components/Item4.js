@@ -17,7 +17,7 @@ const Item4 = () => {
                   Simple Todo list in React with basic functionality like 
                   adding, removing, and marking tasks as complete.
                 </Card.Text>
-                <Button variant="secondary" href="https://github.com/joselclee/todo-list">
+                <Button variant="secondary" href="https://github.com/joselclee/todo-list" target = "_blank">
                   <FontAwesomeIcon icon={faCode} /> JavaScript
                   </Button>
             </Card.Body>

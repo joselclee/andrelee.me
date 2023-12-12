@@ -17,7 +17,7 @@ const Item1 = () => {
                   This is a snippet of the code behind this website.
                   Click the button below to view the repository.
                 </Card.Text>
-                <Button variant="secondary" href="https://github.com/joselclee/andrelee.dev">
+                <Button variant="secondary" href="https://github.com/joselclee/andrelee.dev" target = "_blank">
                   <FontAwesomeIcon icon={faCode} />
                   </Button>
             </Card.Body>
