@@ -15,7 +15,7 @@ const Featured = () => {
             <Card.Title>billiam fakespeare </Card.Title>
             <Card.Text>
               Natural language processing model that is trained on 40,000 lines of Shakespearean text to generate 
-              hilarious responses to user input. The model uses TF-IDF to vectorize the input and then uses cosine similarity
+              responses to user input. The model uses TF-IDF to vectorize the input and then uses cosine similarity
               to generate the response.
             </Card.Text>
             <Button variant="secondary" href="https://github.com/joselclee/chatbot">
