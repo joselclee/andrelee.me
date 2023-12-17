@@ -1,7 +1,17 @@
 /* For featured item on home */
-
 .med-size { 
   align-self: center;
   width: 65%;
   height: 70%;
+}
+
+.normalize {
+  width: 105%;
+  height: 100%;
+}
+
+.img-custom {
+  width: 100%;
+  height: 100%; /* adjust as needed */
+  object-fit: cover;
 }

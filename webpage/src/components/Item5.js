@@ -9,8 +9,8 @@ import snippetImage from './assets/csun.jpg';
 const Item5 = () => {
   return (
     <div>
-        <Card>
-        <Card.Img variant="top" src={snippetImage} alt="Snippet" />
+        <Card className="normalize">
+        <Card.Img variant="top" src={snippetImage} alt="Snippet" className="img-custom"/>
             <Card.Body>
                 <Card.Title>Matamunch</Card.Title>
                 <Card.Text>

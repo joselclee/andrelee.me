@@ -4,13 +4,13 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import snippetImage from './assets/moviepic.jpg';
+import asset from './assets/item-assets/Item3.mp4';
 
 const Item3 = () => {
   return (
     <div>
-        <Card>
-        <Card.Img variant="top" src={snippetImage} alt="Snippet" />
+        <Card className="normalize">
+        <video src={asset} alt="Snippet" className="img-custom" autoPlay loop muted />
             <Card.Body>
                 <Card.Title>Moviesseur</Card.Title>
                 <Card.Text>

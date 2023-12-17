@@ -1,0 +1,9 @@
+To do:
+
+-Implement gif demos for projects page
+-Normalize card size and image size
+
+-Add animations to homepage
+-Add chatbot functionality to homepage
+
+-Add games page
