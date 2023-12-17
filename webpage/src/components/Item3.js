@@ -17,13 +17,13 @@ const Item3 = () => {
                   Fullstack application that taught me about implementing APIs and how to connect and
                   troubleshoot between the backend and frontend.
                 </Card.Text>
-                <Button variant="secondary" href="https://github.com/joselclee/Moviesseur" target = "_blank">
+                <Button variant="dark" href="https://github.com/joselclee/Moviesseur" target = "_blank">
                   <FontAwesomeIcon icon={faCode} /> Backend
-                  </Button>
-                  <br/><br/>
-                  <Button variant="secondary" href="https://github.com/joselclee/Moviesseur-Front-End" target = "_blank">
+                </Button>
+                {" "}
+                <Button variant="dark" href="https://github.com/joselclee/Moviesseur-Front-End" target = "_blank">
                   <FontAwesomeIcon icon={faCode} /> Frontend
-                  </Button>
+                </Button>
             </Card.Body>
         </Card>
     </div>

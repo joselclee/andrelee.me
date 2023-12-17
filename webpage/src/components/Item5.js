@@ -17,7 +17,7 @@ const Item5 = () => {
                   Food searching program that can search for food using
                   prices, calories, location, and name.
                 </Card.Text>
-                <Button variant="secondary" href="https://github.com/joselclee/COMP-282-Matamunch" target = "_blank">
+                <Button variant="dark" href="https://github.com/joselclee/COMP-282-Matamunch" target = "_blank">
                   <FontAwesomeIcon icon={faCode} /> Java
                   </Button>
             </Card.Body>

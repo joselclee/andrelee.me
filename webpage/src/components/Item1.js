@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import asset from './assets/item-assets/item1.jpg';
+import asset from './assets/item-assets/item1-cropped.jpg';
 
 const Item1 = () => {
   return (
@@ -17,7 +17,7 @@ const Item1 = () => {
                   This is a snippet of the code behind this website.
                   Click the button below to view the repository.
                 </Card.Text>
-                <Button variant="secondary" href="https://github.com/joselclee/andrelee.dev" target = "_blank">
+                <Button variant="dark" href="https://github.com/joselclee/andrelee.dev" target = "_blank">
                   <FontAwesomeIcon icon={faCode} />
                   </Button>
             </Card.Body>

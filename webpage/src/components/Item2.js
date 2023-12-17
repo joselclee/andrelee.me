@@ -17,7 +17,7 @@ const Item2 = () => {
                   This marks my first step into machine learning! For this model, I provided 18 self-drawn 
                   images with the current real-world accuracy of the model at 50%.
                 </Card.Text>
-                <Button variant="secondary" href="https://github.com/joselclee/Handwritten-Number-Identifier" target = "_blank">
+                <Button variant="dark" href="https://github.com/joselclee/Handwritten-Number-Identifier" target = "_blank">
                   <FontAwesomeIcon icon={faCode} /> Python
                   </Button>
             </Card.Body>
