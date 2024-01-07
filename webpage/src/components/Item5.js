@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import asset from './assets/csun.jpg';
+import asset from './assets/item-assets/matamunch-demo.jpg';
 
 const Item5 = () => {
   return (
@@ -16,6 +16,7 @@ const Item5 = () => {
                 <Card.Text>
                   Food searching program that can search for food using
                   prices, calories, location, and name.
+                  <br/><br/>
                 </Card.Text>
                 <Button variant="dark" href="https://github.com/joselclee/COMP-282-Matamunch" target = "_blank">
                   <FontAwesomeIcon icon={faCode} /> Java
