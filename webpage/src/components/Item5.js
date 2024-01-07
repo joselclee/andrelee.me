@@ -4,13 +4,13 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import snippetImage from './assets/csun.jpg';
+import asset from './assets/csun.jpg';
 
 const Item5 = () => {
   return (
     <div>
         <Card className="normalize">
-        <Card.Img variant="top" src={snippetImage} alt="Snippet" className="img-custom"/>
+        <Card.Img variant="top" src={asset} alt="Snippet" className="img-custom"/>
             <Card.Body>
                 <Card.Title>Matamunch</Card.Title>
                 <Card.Text>

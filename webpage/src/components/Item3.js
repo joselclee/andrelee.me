@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import asset from './assets/item-assets/Item3.mp4';
+import asset from './assets/item-assets/movie-demo.mp4';
 
 const Item3 = () => {
   return (
