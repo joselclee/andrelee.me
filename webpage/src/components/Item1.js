@@ -19,7 +19,7 @@ const Item1 = () => {
                   <br/><br/>
                 </Card.Text>
                 <Button variant="dark" href="https://github.com/joselclee/andrelee.dev" target = "_blank">
-                  <FontAwesomeIcon icon={faCode} />
+                  <FontAwesomeIcon icon={faCode} /> JavaScript
                   </Button>
             </Card.Body>
         </Card>

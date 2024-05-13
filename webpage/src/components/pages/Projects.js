@@ -5,6 +5,7 @@ import Item2 from '../Item2';
 import Item3 from '../Item3';
 import Item4 from '../Item4';
 import Item5 from '../Item5';
+import Item6 from '../Item6';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -14,6 +15,7 @@ const Projects = () => {
   return (
     <div>
         <Header/>
+        <br/>
         <Container fluid='lg'>
         <Row>
           <Col>
@@ -28,6 +30,7 @@ const Projects = () => {
             <Item3/>
           </Col>
         </Row>
+        <br/>
         <Row>
           <Col>
             <Item4/>
@@ -38,6 +41,7 @@ const Projects = () => {
           </Col>
 
           <Col>
+            <Item6/>
           </Col>
 
         </Row>
