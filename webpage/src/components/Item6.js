@@ -4,13 +4,13 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import asset from './assets/item-assets/item6.png';
+import asset from './assets/item-assets/skincare.mp4';
 
 const Item6 = () => {
   return (
     <div>
         <Card className="normalize">
-        <Card.Img variant="top" src={asset} alt="Snippet" className="img-custom"/>
+        <video src={asset} alt="Snippet" style={{height: '100%', borderRadius: '5px'}}className="img-custom" autoPlay loop muted />
             <Card.Body>
                 <Card.Title>Skincare Ecommerce Site</Card.Title>
                 <Card.Text>

@@ -10,7 +10,7 @@ const Item3 = () => {
   return (
     <div>
         <Card className="normalize">
-        <video src={asset} alt="Snippet" className="img-custom" autoPlay loop muted />
+        <video src={asset} alt="Snippet" style={{borderRadius: '5px'}}className="img-custom" autoPlay loop muted />
             <Card.Body>
                 <Card.Title>Moviesseur</Card.Title>
                 <Card.Text>
