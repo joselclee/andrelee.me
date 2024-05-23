@@ -15,7 +15,7 @@ const Header = () => {
             <Nav.Link as={Link} to="/">
               Home
               </Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/jose-lee-748989183/" target="_blank">
+            <Nav.Link href="https://www.linkedin.com/in/joselclee" target="_blank">
               LinkedIn
             </Nav.Link>
             <Nav.Link href="https://github.com/joselclee" target="_blank">
