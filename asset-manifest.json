@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.70678e87.css",
-    "main.js": "/static/js/main.576a6a8c.js",
+    "main.js": "/static/js/main.e9f0e260.js",
     "static/media/skincare.mp4": "/static/media/skincare.d886fc092b019b45b6b6.mp4",
     "static/media/movie-demo.mp4": "/static/media/movie-demo.2891858e28326bb35ec4.mp4",
     "static/media/numbers-demo.mp4": "/static/media/numbers-demo.3fa5949985c885a8e49e.mp4",
@@ -13,10 +13,10 @@
     "static/media/andre.mp4": "/static/media/andre.573853d10c6f5af7ee86.mp4",
     "index.html": "/index.html",
     "main.70678e87.css.map": "/static/css/main.70678e87.css.map",
-    "main.576a6a8c.js.map": "/static/js/main.576a6a8c.js.map"
+    "main.e9f0e260.js.map": "/static/js/main.e9f0e260.js.map"
   },
   "entrypoints": [
     "static/css/main.70678e87.css",
-    "static/js/main.576a6a8c.js"
+    "static/js/main.e9f0e260.js"
   ]
 }
